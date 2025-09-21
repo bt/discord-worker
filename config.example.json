@@ -1,0 +1,17 @@
+{
+  "token": "<user_token>",
+  "watchlist": [
+    {
+      "server_id": "123456789012345678",
+      "channel_id": "987654321098765432"
+    },
+    {
+      "server_id": "234567890123456789",
+      "channel_id": "876543210987654321"
+    }
+  ],
+  "webhooks": [
+    "https://example.com/webhook1",
+    "https://example.com/webhook2"
+  ]
+}
