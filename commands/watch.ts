@@ -49,7 +49,7 @@ const handleMessage = async (message: Message, webhooks: string[]) => {
             } else {
                 console.log(`Successfully sent message ID ${message.id} to webhook ${webhookUrl}`);
             }
-        } catch (error) {
+        } catch (error: any) {
             console.error(`Error sending message to webhook ${webhookUrl}: ${error.message}`);
         }
     }

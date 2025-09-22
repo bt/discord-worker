@@ -1,10 +1,11 @@
 {
   "name": "discord-worker",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main.ts",
   "scripts": {
-    "postinstall": "patch-package",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "patch-package"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +16,9 @@
     "discord.js": "11.6.4"
   },
   "devDependencies": {
-    "patch-package": "^8.0.0"
+    "@types/node": "^24.5.2",
+    "patch-package": "^8.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
   }
 }

@@ -33,7 +33,7 @@ try {
         });
 
     program.parse();
-} catch (e) {
+} catch (e: any) {
     console.error(`Error loading config: ${e.message}`);
     exit(1);
 }
